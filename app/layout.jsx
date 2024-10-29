@@ -13,8 +13,15 @@ const geistMono = localFont({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://buttons-one-alpha.vercel.app/"),
   title: "Buttons",
-  description: "Button Ideas",
+  description: "A collection of Button Ideas",
+  openGraph: {
+    title: "Buttons",
+    images: "/opengraph.png",
+    locale: 'en_US',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({ children }) {
