@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #1E201E;
+}
+
+@layer utilities {
+  .btn-container{
+      @apply flex flex-col items-center justify-center aspect-square gap-6
+  }
+}
